@@ -1,12 +1,12 @@
-anamorfix [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=shazbits_anamorfix&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=shazbits_anamorfix)
+anamorfix
 =========
 
-Command line utility to desqueeze anamorphic images from a given folder, and using stretch ratio.
+Python3 command line utility to desqueeze anamorphic images from a given folder, and using stretch ratio.
 
 ## Usage
 
 ```
-$ python anamorfix.py "C:\Path\To\Images" 1.75
+$ python3 anamorfix.py "C:\Path\To\Images" 1.75
 Desqueezing DSC_0944.JPG at 1.750x
 Desqueezing DSC_0945.JPG at 1.750x
 ```
@@ -24,5 +24,3 @@ $ pip install pillow
 ## MIT License
 
 https://github.com/shazbits/anamorfix/blob/master/LICENSE
-
-Romain Dura
