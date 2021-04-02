@@ -24,7 +24,7 @@ def desqueeze_images_in_folder(img_path, stretch_ratio):
         img = Image.open(file_path)
         width, height = img.size
         new_img = img.resize((width, int(height * (1.0 / stretch_ratio))))
-        new_img.save(os.path.join(dst_path, filename))
+        new_img.save(os.path.join(dst_path, filename), exif=img.info['exif'])
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
