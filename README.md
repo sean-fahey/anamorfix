@@ -23,4 +23,4 @@ $ pip install pillow
 
 ## MIT License
 
-https://github.com/shazbits/anamorfix/blob/master/LICENSE
+https://github.com/sean-fahey/anamorfix/blob/master/LICENSE
